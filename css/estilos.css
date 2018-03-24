@@ -20,7 +20,6 @@ header{
 h1{
 	color: white;
 }
-
 .header_title{
   width: 70%;
 	height: 80px;
@@ -51,6 +50,13 @@ h1{
 	margin: auto;
 	display: flex;
 	flex-flow: row;
+	background-color: #d5c75f;
+}
+.galeria-imagenes{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
 	background-color: #d5c75f;
 }
 .paisajes{
@@ -97,35 +103,21 @@ h1{
 	-ms-transform: translate(20px,-5px);
 	transform: translate(20px,-5px);
 }
-
-.galeria{
-	width: 90%;
-	margin: auto;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	background-color: #d5c75f;
-}
-
-.galeria img{
+.galeria-imagenes img{
 	width: 30%;
-	margin: 10px auto;
+	margin: 5px auto;
 	border-style: solid;
 	border-width: 1px;
 }
-
 .imagen1{
 	filter: blur(10px);
 }
-
 .imagen2, .imagen4, .imagen6{
 	filter:grayscale(100%);
 }
-
 .imagen3{
 	filter: sepia(90%);
 }
-
 footer{
 	clear: both; /* No permite ubicar contenedores laterales*/
   height: auto;
@@ -136,7 +128,6 @@ footer{
 	display: flex;
 	flex-flow: row;
 }
-
 footer .contacto{
 	flex: 1;
 	order: 1;
@@ -199,16 +190,20 @@ footer .derechos{
 		width: 90%;
 		flex: 1;
 		order: 1;
+		margin: auto;
+		padding: 10px;
 	}
 	.retratos{
 		width: 90%;
 	  flex: 1;
 		order: 2;
+		margin: auto;
+		padding: 10px;
 	}
-	.galeria{
+	.galeria-imagenes{
 		width: 100%;
 	}
-	.galeria img{
+	.galeria-imagenes img{
 		width: 90%;
 		margin: 10px auto;
 	}
